@@ -1,0 +1,8 @@
+{
+    "logo": "//img[@alt='company-branding']",
+    "login_header": "//h5[contains(@class,'login-title')]",
+    "username_Txtb": "//input[@name='username']",
+    "password_Txtb": "//input[@name='password']",
+    "login_btn": "//button[@type='submit']",
+    "forgot_login_link": "//p[contains(@class,'orangehrm-login-forgot')]"
+}

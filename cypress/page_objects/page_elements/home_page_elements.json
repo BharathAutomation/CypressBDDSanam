@@ -1,0 +1,18 @@
+{
+    "dashboard_header":"//h6[text()='Dashboard']",
+    "search_txtb":"//input[@placeholder='Search']",
+    "admin_menu":"//a[contains(@href,'Admin')]",
+    "pim_menu":"//a[contains(@href,'Pim')]",
+    "leave_menu":"//a[contains(@href,'Leave')]",
+    "time_menu":"//a[contains(@href,'Time')]",
+    "recruitment_menu":"//a[contains(@href,'Recruitment')]",
+    "my_info_menu":"//a[contains(@href,'viewMyDetails')]",
+    "performance_menu":"//a[contains(@href,'Performance')]",
+    "dashboard_menu":"//a[contains(@href,'dashboard')]",
+    "directory_menu":"//a[contains(@href,'Directory')]",
+    "maintenance_menu":"//a[contains(@href,'Maintenance')]",
+    "claim_menu":"//a[contains(@href,'Claim')]",
+    "buzz_menu":"//a[contains(@href,'Buzz')]",
+    "profile_pic":"//li//img[@alt='profile picture']",
+    "logout":"//a[text()='Logout']"
+}

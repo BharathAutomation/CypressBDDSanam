@@ -1,0 +1,58 @@
+[
+  {
+    "description": "    This feature file includes different scenarios related to OrangeHRM Login and Claims Features",
+    "keyword": "Feature",
+    "name": "OrangeHRM Login and Claims Feature",
+    "line": 1,
+    "id": "orangehrm-login-and-claims-feature",
+    "tags": [],
+    "uri": "orange_hrm.feature",
+    "elements": [
+      {
+        "id": "orangehrm-login-and-claims-feature;verify-application-logo-and-login-page-header",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Application Logo And Login Page Header",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Launch the application",
+            "result": {
+              "status": "passed",
+              "duration": 48302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify application logo",
+            "result": {
+              "status": "passed",
+              "duration": 3724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Verify login page header displayed as \"Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

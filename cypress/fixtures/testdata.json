@@ -1,0 +1,15 @@
+[
+    {
+        "testname": "Verify Application Logo and Login Page Header",
+        "data": {
+            "header": "Login"
+        }
+    },
+    {
+        "testname": "Verify Application Login",
+        "data": {
+            "username": "abc",
+            "password": "123"
+        }
+    }
+]

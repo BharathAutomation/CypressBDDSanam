@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cypress": "^13.14.2"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.7.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },"scripts": {
+    "run-tests":"npx cypress run --spec cypress/e2e/features/orange_hrm.feature --browser chrome",
+    "generate-report":"node cypress/cucumber-html-report.js",
+    "test-suite":"npm run run-tests  && npm run generate-report && start cypress/reports/index.html"
+  }
+}
