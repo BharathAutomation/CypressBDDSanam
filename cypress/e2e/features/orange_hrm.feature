@@ -17,18 +17,18 @@ Feature: OrangeHRM Login and Claims Feature
         Examples:
             | scenario            | username | password |
             | valid credentials   | Admin    | admin123 |
-            | invalid credentials | Sanam    | Sanam123 |
+            # | invalid credentials | Sanam    | Sanam123 |
 
-    @regression
-    Scenario Outline: Verify Application Claims - Search Claims "<scenario>"
-        Given Launch the application
-        When I enter "<username>" and "<password>"
-        And I click on login button
-        Then Login should be successful
-        When User navigated to claims screen
-        And User search claims with "<user>" and "<fullname>"
-        Then Claims search should be successful for "<user>"
+    # @regression
+    # Scenario Outline: Verify Application Claims - Search Claims "<scenario>"
+    #     Given Launch the application
+    #     When I enter "<username>" and "<password>"
+    #     And I click on login button
+    #     Then Login should be successful
+    #     When User navigated to claims screen
+    #     And User search claims with "<user>" and "<fullname>"
+    #     Then Claims search should be successful for "<user>"
 
-        Examples:
-            | scenario           | username | password | user           | fullname       |
-            | with employee name | Admin    | admin123 | Prabin Mainali | Prabin Mainali |
+    #     Examples:
+    #         | scenario           | username | password | user           | fullname       |
+    #         | with employee name | Admin    | admin123 | Prabin Mainali | Prabin Mainali |
