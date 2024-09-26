@@ -18,6 +18,6 @@
   },"scripts": {
     "run-tests":"npx cypress run --spec cypress/e2e/features/orange_hrm.feature --browser chrome",
     "generate-report":"node cypress/cucumber-html-report.js",
-    "test-suite":"npm run run-tests  && npm run generate-report && start cypress/reports/index.html"
+    "test-suite":"npm run run-tests  && npm run generate-report"
   }
 }
