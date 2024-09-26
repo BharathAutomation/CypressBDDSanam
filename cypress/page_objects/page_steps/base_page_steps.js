@@ -8,6 +8,7 @@ class basePageSteps{
         cy.viewport(1920, 1080);
         cy.visit(config.url);
         cy.title().should('eq',config.title);
+        cy.wait(5000);
         cy.log("Application is launched successfully")
     }
 
